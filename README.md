@@ -1,1 +1,1 @@
-Exercises from university
+Python exercises
