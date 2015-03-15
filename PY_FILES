@@ -1,0 +1,5 @@
+ls $1/*.py > pynames
+#count=`ls $1/*.py | wc -l`
+count=`cat pynames | wc -w`
+totalcount=`ls $1 | wc -l`
+echo Count of files = `expr $totalcount - $count`
